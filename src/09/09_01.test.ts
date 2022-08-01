@@ -12,7 +12,9 @@ type UserType = {
 test('big test', () => {
      let user: UserType = {
         name: 'Dimych',
-        age: 32
+        age: 32, address: {
+           title: 'Minsk'
+        }
      }
 
      increasedAge(user)
